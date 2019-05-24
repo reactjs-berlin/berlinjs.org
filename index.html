@@ -42,11 +42,9 @@
   <body>
     <header class="content clearfix">
       <div class="clearfix">
-        <h1>
-          <a href="/">
-            <img alt="ReactJS.berlin" src="img/react-berlin-logo.svg" class="logo" />
-          </a>
-        </h1>
+        <a href="/">
+          <img alt="ReactJS.berlin" src="img/react-berlin-logo.svg" class="logo" />
+        </a>
         <p class="ug-info triangle-border left">
           ReactJS.berlin was an early React user group run by 
           <a href="http://bitcrowd.net" title="bitcrowd.net office">bitcrowd</a>. 
@@ -59,7 +57,7 @@
     <main class="content clearfix">
       <article class="clearfix">
         <header class="clearfix center">
-          <h2>This React meetup has been closed.</h2>
+          <h1>This React meetup has been closed.</h1>
         </header>
         <div class="clearfix">
           <p>
@@ -69,36 +67,38 @@
             So we find that running another one just doesn’t make sense anymore.
           </p>
         </div>
-      </article>  
-      <section>
-        <h2>Looking for React meetups?</h2>
-        <p>
-          If you are still looking for React meetups, events or courses, we suggest taking a look at the
-          <a href="https://www.meetup.com/topics/reactjs/de/berlin/?country=de&zipstatecity=berlin&state=&radius=40"
-             title="Berlin's finest JavaScript Usergroup">meetup.com groups.</a>. 
-             Especially <a href="http://berlinjs.org/" title="Berlin's finest JavaScript Usergroup">berlinjs.org</a>
-             is a great place to start.
-        </p>
-      </section>
-      <section>
-        <h2>Hosting an event?</h2>
-        <p>
-          The <a href="http://bitcrowd.net" title="bitcrowd.net office">@bitcrowd</a> office has an event space that you
-          can use for community events. It has a capacity of 90 people (seated) or 30 people (with desks for courses).
-        </p>
-      </section>
-      <section>
-        <h2>Looking for React experts?</h2>
-        <p>
-          We at <a href="http://bitcrowd.net" title="bitcrowd.net office">@bitcrowd</a> have created many ReactJS applications 
-          for our clients over the past few years. Just drop us an email or give us a call and we’ll see how we can help 
-          your project.
-        </p>
-      </section>
+      </article>
+      <div class="clearfix three-cols">  
+        <div>
+          <h2 class="header-style">Looking for React meetups?</h2>
+          <p>
+            If you are still looking for React meetups, events or courses, we suggest taking a look at the
+            <a href="https://www.meetup.com/topics/reactjs/de/berlin/?country=de&zipstatecity=berlin&state=&radius=40"
+              title="Berlin's finest JavaScript Usergroup">meetup.com groups.</a>. 
+              Especially <a href="http://berlinjs.org/" title="Berlin's finest JavaScript Usergroup">berlinjs.org</a>
+              is a great place to start.
+          </p>
+        </div>
+        <div>
+          <h2 class="header-style">Hosting an event?</h2>
+          <p>
+            The <a href="http://bitcrowd.net" title="bitcrowd.net office">@bitcrowd</a> office has an event space that you
+            can use for community events. It has a capacity of 90 people (seated) or 30 people (with desks for courses).
+          </p>
+        </div>
+        <div>
+          <h2 class="header-style">Talk to our React experts</h2>
+          <p>
+            We at <a href="http://bitcrowd.net" title="bitcrowd.net office">@bitcrowd</a> have created many ReactJS applications 
+            for our clients over the past few years. Just drop us an email or give us a call and we’ll see how we can help 
+            your project.
+          </p>
+        </div>
+      </div>
       <section>
         <div class="l-grid l-grid--wide" itemscope="" itemtype="http://schema.org/Organization">
           <div class="l-grid__item l-width--6-of-12@medium">
-            <h4>Get in touch</h4>
+            <h3>Get in touch</h3>
             <ul class="o-list-reset t-margin--bottom t-margin--top">
               <li class="t-margin--bottom" itemprop="email">
                 <a class="o-button o-button--brand-one o-flex" href="mailto:info@bitcrowd.net?Subject=Hallo bitcrowd!">
@@ -124,7 +124,7 @@
             </ul>
           </div>
           <div class="l-grid__item l-grid__item--bordered@medium l-width--6-of-12@medium t-text-align--center@small-only">
-            <h4>Come see us</h4>
+            <h3>Come see us</h3>
             <span itemprop="name">bitcrowd GmbH.</span>
             <address class="t-margin--bottom" itemprop="address" itemtype="http://schema.org/PostalAddress">
               <span itemprop="streetAddress">Oranienstr. 6</span>
@@ -138,7 +138,10 @@
           </div>
         </div>
       </section>
-      <section>
+    </main>
+
+    <footer class="content">
+    <section>
         <div class="clearfix one-col">
           <div>
             <h2>Past Meetups</h2>
@@ -167,9 +170,6 @@
           </div>
         </div>
       </section>
-    </main>
-
-    <footer class="content">
       <section>
         <div class="clearfix one-col">
           <div>
@@ -188,15 +188,17 @@
         </div>
       </section>
       <section>
-        <div>
-          <h2>Imprint, privacy policy and legal information</h2>
-          <p>
-            This site is run by
-            <a href="http://bitcrowd.net" title="bitcrowd.net software development for startups">bitcrowd</a> -
-            please find <a href="http://bitcrowd.net/legal"
-              title="bitcrowd.net software development legal information">imprint, privacy and other legal information
-              here</a>.
-          </p>
+        <div class="clearfix one-col">
+          <div>
+            <h2>Imprint, privacy policy and legal information</h2>
+            <p>
+              This site is run by
+              <a href="http://bitcrowd.net" title="bitcrowd.net software development for startups">bitcrowd</a> -
+              please find <a href="http://bitcrowd.net/legal"
+                title="bitcrowd.net software development legal information">imprint, privacy and other legal information
+                here</a>.
+            </p>
+          </div>
         </div>
       </section>
     </footer>
