@@ -127,12 +127,16 @@ h6,
   font-size: 50%;
 }
 
-
-
-h1, h2 {
+h1 {
   margin-bottom : 0.5em;
   font-size : 3em;
   line-height : 1.2;
+}
+
+h2 {
+  margin-bottom : 0.5em;
+  font-size : 2em;
+  line-height : 1.2; 
 }
 
 h3, h4 {
@@ -635,10 +639,6 @@ article {
   padding: 10px 0;
 }
 
-.header-style {
-  font-size: 2em;
-}
-
 /* 12.COMPLIMENTARY */
 
 
@@ -651,10 +651,6 @@ footer {
 
 footer ul {
   list-style: none;
-}
-
-footer h2 {
-  font-size: 2em;
 }
 
 /* 14.GLOBAL OBJECTS */
